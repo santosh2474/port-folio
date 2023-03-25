@@ -130,7 +130,8 @@
                 <i class="uil uil-message nav__icon"></i> Contact Me
               </a>
             </li>
-          </ul>    
+          </ul>   
+          <i class="uil uil-times nav__close noSelect" id="nav-close"></i> 
         </div>
         <div class="nav__btns">
           <!-- theme change button -->
@@ -574,7 +575,7 @@
           <!--==================== PORTFOLIO 1====================-->
           <div class="portfolio__content grid swiper-slide">
             <img
-              src="assets/img/portfolio/Face_Recoginition_Attendance_Management_System.png"
+              src="assets/img/portfolio/Face_Recoginition_Attendance_Management_System.PNG"
               alt=""
               class="portfolio__img"
             />
@@ -597,7 +598,7 @@
           <!--==================== PORTFOLIO 2====================-->
           <div class="portfolio__content grid swiper-slide">
             <img
-              src="assets/img/portfolio/Decentralized Voting (dVoting).png"
+              src="assets/img/portfolio/Decentralized Voting (dVoting).PNG"
               alt=""
               class="portfolio__img"
             />
@@ -842,7 +843,7 @@
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
           navigator.serviceWorker
-            .register("/serviceWorker.js")
+            .register("serviceWorker.js")
             .then((res) => console.log("service worker registered"))
             .catch((err) => console.log("service worker not registered", err));
         });
