@@ -418,6 +418,7 @@ header {
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
+  margin-top: 10px;
 }
 
 .button:hover {
