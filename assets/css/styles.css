@@ -443,6 +443,7 @@ header {
 .button--flex {
   display: inline-flex;
   align-items: center;
+  margin-top: 10px;
 }
 
 .button--small {
